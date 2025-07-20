@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <?php include('components/navbar.php'); ?>
+    <div id="navbar-container"></div>
+    <script type="module">
+        import { loadNavbar } from './js/components/navbar-component.js';
+        loadNavbar();
+    </script>
 
     <!-- Hero Section -->
     <div class="section" id="hero">
@@ -18,7 +22,7 @@
     <!-- Section Cards -->
     <div class="section" id="sections-overview">
         <div class="section-card">
-            <h2><a href="percorso/">Il Mio Percorso</a></h2>
+            <h2><a href="percorso/index.html">Il Mio Percorso</a></h2>
             <p>Scopri come sono passato dai primi passi nella programmazione alla scoperta dei framework moderni.</p>
         </div>
         
