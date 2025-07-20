@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: capolavoro
+    runtime: php
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:\$PORT -t .
+    env: php
+    autoDeploy: yes
+    phpVersion: 8.2
+    staticAssets:
+      - path: /
+        destination: /

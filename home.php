@@ -4,20 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Il Mio Percorso nel Web Development</title>
-    <link rel="stylesheet" href="percorso/stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <!-- Header with Navigation -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <a href="home.html" class="logo">Home</a>
-            <div class="nav-links">
-                <a href="percorso/index.php" class="nav-link">Il Mio Percorso</a>
-                <a href="progetti/" class="nav-link">Progetti</a>
-                <a href="risorse/" class="nav-link">Risorse</a>
-            </div>
-        </div>
-    </nav>
+    <?php include('components/navbar.php'); ?>
 
     <!-- Hero Section -->
     <div class="section" id="hero">
@@ -28,7 +18,7 @@
     <!-- Section Cards -->
     <div class="section" id="sections-overview">
         <div class="section-card">
-            <h2><a href="percorso/index.php">Il Mio Percorso</a></h2>
+            <h2><a href="percorso/">Il Mio Percorso</a></h2>
             <p>Scopri come sono passato dai primi passi nella programmazione alla scoperta dei framework moderni.</p>
         </div>
         
