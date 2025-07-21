@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risorse di Apprendimento</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+   <script type="module">
+       import { loadNavbar } from '../js/components/navbar-component.js';
+       loadNavbar();
+   </script>
+   
+    <div class="main-container">
+        <header>
+            <h1>Risorse di Apprendimento</h1>
+        </header>
+
+        <section id="risorse">
+            <h2>Categorie Tecnologiche</h2>
+            <div class="tech-grid">
+                <!-- Sarà popolato con le card delle tecnologie usando JavaScript -->
+            </div>
+            <div class="risorse-generali">
+                <h3>Risorse Generali</h3>
+                <ul>
+                    <li><a href="https://www.theodinproject.com/">The Odin Project</a></li>
+                    <li><a href="frameworks.html">Tutti i Frameworks</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="../js/risorse.js"></script>
+</body>
+</html>

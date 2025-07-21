@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risorse PostgreSQL</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script type="module">
+        import { loadNavbar } from '../js/components/navbar-component.js';
+        loadNavbar();
+    </script>
+    
+    <div class="main-container">
+        <header>
+            <h1>Risorse PostgreSQL</h1>
+            <a href="index.html" class="back-link">← Torna alle tecnologie</a>
+        </header>
+
+        <section id="risorse-tech">
+            <div class="level-section">
+                <h2>Principiante</h2>
+                <ul class="resource-list">
+                    <li><a href="https://www.postgresqltutorial.com/" target="_blank" rel="noopener noreferrer">PostgreSQL Tutorial</a></li>
+                    <li><a href="https://www.postgresql.org/docs/current/tutorial.html" target="_blank" rel="noopener noreferrer">PostgreSQL Docs</a></li>
+                </ul>
+            </div>
+
+            <div class="level-section">
+                <h2>Intermedio</h2>
+                <ul class="resource-list">
+                    <li><a href="https://www.postgresql.org/docs/current/performance-tips.html" target="_blank" rel="noopener noreferrer">PostgreSQL Performance</a></li>
+                    <li><a href="https://www.postgresql.org/docs/current/queries.html" target="_blank" rel="noopener noreferrer">Advanced Queries</a></li>
+                </ul>
+            </div>
+
+            <div class="level-section">
+                <h2>Avanzato</h2>
+                <ul class="resource-list">
+                    <li><a href="https://www.interdb.jp/pg/" target="_blank" rel="noopener noreferrer">PostgreSQL Internals</a></li>
+                    <li><a href="https://www.postgresql.org/docs/current/high-availability.html" target="_blank" rel="noopener noreferrer">Replication Guide</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

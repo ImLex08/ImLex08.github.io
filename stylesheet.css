@@ -215,3 +215,163 @@ a:hover {
     margin-top: 1rem;
     color: rgba(255, 255, 255, 0.8);
 }
+
+/* Stili per la pagina Risorse */
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tech-grid, .framework-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+.tech-card, .framework-card {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(0, 220, 130, 0.1);
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.framework-card {
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.framework-card h3 {
+    color: #00DC82;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.framework-card p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(0, 220, 130, 0.3);
+}
+
+.tech-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: #00DC82;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.level-section {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-left: 4px solid #00DC82;
+}
+
+.resource-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-list li {
+    margin-bottom: 0.8rem;
+    padding-left: 1rem;
+    border-left: 2px solid rgba(0, 220, 130, 0.3);
+}
+
+.resource-list a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resource-list a:hover {
+    color: #00DC82;
+}
+
+#questionario {
+    margin: 3rem 0;
+}
+
+#questionario fieldset {
+    border: 1px solid rgba(0, 220, 130, 0.3);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#questionario legend {
+    color: #00DC82;
+    padding: 0 10px;
+}
+
+#percorso {
+    margin: 3rem 0;
+}
+
+.node circle {
+    fill: #00DC82;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.node--internal circle {
+    fill: #0b062b;
+}
+
+.node text {
+    font: 12px sans-serif;
+    fill: #fff;
+}
+
+.link {
+    fill: none;
+    stroke: rgba(0, 220, 130, 0.5);
+    stroke-width: 2px;
+}
+
+/* Framework Section Styles */
+.section-heading {
+    color: #00DC82;
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgba(0, 220, 130, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+.framework-subsection {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-left: 4px solid rgba(0, 220, 130, 0.5);
+}
+
+.framework-subsection h3 {
+    color: #00DC82;
+    margin-top: 0;
+}

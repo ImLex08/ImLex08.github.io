@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next.js Resources</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script type="module">
+        import { loadNavbar } from '../js/components/navbar-component.js';
+        loadNavbar();
+    </script>
+    
+    <div class="main-container">
+        <header>
+            <h1>Next.js Resources</h1>
+            <a href="index.html" class="back-link">← Back to Technologies</a>
+        </header>
+
+        <section id="risorse-tech">
+            <div class="level-section">
+                <h3>Beginner</h3>
+                <ul class="resource-list">
+                    <li><a href="https://nextjs.org/learn" target="_blank" rel="noopener noreferrer">Next.js Learn</a></li>
+                    <li><a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">Next.js Docs</a></li>
+                </ul>
+            </div>
+            <div class="level-section">
+                <h3>Intermediate</h3>
+                <ul class="resource-list">
+                    <li><a href="https://nextjs.org/docs/app/building-your-application/routing" target="_blank" rel="noopener noreferrer">Next.js Patterns</a></li>
+                    <li><a href="https://nextjs.org/docs/app/building-your-application/data-fetching" target="_blank" rel="noopener noreferrer">Data Fetching</a></li>
+                </ul>
+            </div>
+            <div class="level-section">
+                <h3>Advanced</h3>
+                <ul class="resource-list">
+                    <li><a href="https://nextjs.org/docs/app/building-your-application/optimizing" target="_blank" rel="noopener noreferrer">Next.js Optimization</a></li>
+                    <li><a href="https://nextjs.org/docs/app/building-your-application/rendering/server-components" target="_blank" rel="noopener noreferrer">Server Components</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

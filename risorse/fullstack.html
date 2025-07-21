@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risorse Fullstack</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script type="module">
+        import { loadNavbar } from '../js/components/navbar-component.js';
+        loadNavbar();
+    </script>
+    
+    <div class="main-container">
+        <header>
+            <h1>Risorse Fullstack</h1>
+            <a href="index.html" class="back-link">← Torna alle tecnologie</a>
+        </header>
+
+        <section id="risorse-tech">
+            <div class="level-section">
+                <h2>Principiante</h2>
+                <ul class="resource-list">
+                    <li><a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer">Fullstack Open</a></li>
+                    <li><a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</a></li>
+                </ul>
+            </div>
+
+            <div class="level-section">
+                <h2>Intermedio</h2>
+                <ul class="resource-list">
+                    <li><a href="https://www.freecodecamp.org/news/full-stack-development-guide/" target="_blank" rel="noopener noreferrer">Fullstack Development Guide</a></li>
+                    <li><a href="https://roadmap.sh/full-stack" target="_blank" rel="noopener noreferrer">Modern Fullstack</a></li>
+                </ul>
+            </div>
+
+            <div class="level-section">
+                <h2>Avanzato</h2>
+                <ul class="resource-list">
+                    <li><a href="https://microservices.io/" target="_blank" rel="noopener noreferrer">Fullstack Architecture</a></li>
+                    <li><a href="https://www.enterpriseintegrationpatterns.com/" target="_blank" rel="noopener noreferrer">Enterprise Patterns</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
