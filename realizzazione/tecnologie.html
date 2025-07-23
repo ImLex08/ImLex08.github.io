@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologie e Sviluppo</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script type="module">
+        import { loadNavbar } from '../js/components/navbar-component.js';
+        loadNavbar();
+    </script>
+    
+    <div class="main-container">
+        <header>
+            <h1>Tecnologie e Sviluppo</h1>
+            <a href="../index.html" class="back-link">← Back to Home</a>
+        </header>
+
+        <section id="technologies">
+            <h2>Tecnologie Utilizzate</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 - Per la struttura base del sito</li>
+                        <li>CSS3 - Per lo stile e il responsive design</li>
+                        <li>JavaScript ES6+ - Per l'interattività</li>
+                        <li>Web Components - Per la modularità</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3>Strumenti</h3>
+                    <ul>
+                        <li>Git & GitHub - Per il version control e hosting</li>
+                        <li>Visual Studio Code - Come editor principale</li>
+                        <li>GitHub Pages - Per il deployment automatico</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="development-process">
+            <h2>Processo di Sviluppo</h2>
+            <div class="process-steps">
+                <h3>Fasi Principali</h3>
+                <ol>
+                    <li>
+                        <strong>Progettazione:</strong> Definizione struttura e contenuti
+                        <p>Scelta di un'architettura modulare basata su componenti riutilizzabili</p>
+                    </li>
+                    <li>
+                        <strong>Sviluppo:</strong> Implementazione incrementale
+                        <p>Creazione prima dei componenti base, poi delle singole pagine</p>
+                    </li>
+                    <li>
+                        <strong>Testing:</strong> Verifica cross-browser
+                        <p>Test su Chrome, Firefox e mobile devices</p>
+                    </li>
+                    <li>
+                        <strong>Deploy:</strong> Pubblicazione automatica
+                        <p>Configurazione GitHub Actions per il deployment su GitHub Pages</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="hosting">
+            <h2>Scelta di Hosting</h2>
+            <div class="hosting-section">
+                <h3>GitHub Pages</h3>
+                <p>Scelto per:</p>
+                <ul>
+                    <li>Integrazione nativa con repository GitHub</li>
+                    <li>Deployment automatico ad ogni push</li>
+                    <li>SSL gratuito</li>
+                    <li>Performance affidabili</li>
+                </ul>
+                <p>Configurazione tramite file <code>render.yaml</code> nella root del progetto</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

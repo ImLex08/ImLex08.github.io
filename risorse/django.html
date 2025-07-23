@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Resources</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script type="module">
+        import { loadNavbar } from '../js/components/navbar-component.js';
+        loadNavbar();
+    </script>
+    
+    <div class="main-container">
+        <header>
+            <h1>Django Resources</h1>
+            <a href="frameworks.html" class="back-link">← Back to Frameworks</a>
+        </header>
+
+        <section id="django-overview">
+            <h2>Django Overview</h2>
+            <p>Django is a high-level Python web framework that enables rapid development of secure and maintainable websites.</p>
+            
+            <div class="level-section">
+                <h3>Official Resources</h3>
+                <ul class="resource-list">
+                    <li><a href="https://docs.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django Documentation</a></li>
+                    <li><a href="https://www.djangoproject.com/start/" target="_blank" rel="noopener noreferrer">Getting Started with Django</a></li>
+                </ul>
+            </div>
+
+            <div class="level-section">
+                <h3>Learning Resources</h3>
+                <ul class="resource-list">
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django" target="_blank" rel="noopener noreferrer">MDN Django Tutorial</a></li>
+                    <li><a href="https://djangoforbeginners.com/" target="_blank" rel="noopener noreferrer">Django for Beginners</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -52,7 +52,7 @@ const tecnologie = {
         }
     },
     'Node.js': {
-        logo: '../imgs/Node.js_logo.svg.png',
+        logo: '../imgs/Node_js.png',
         risorse: {
             'Principiante': [
                 { nome: 'Node.js Official Docs', url: 'https://nodejs.org/en/docs/guides/' },
@@ -69,7 +69,7 @@ const tecnologie = {
         }
     },
     'Python': {
-        logo: '../imgs/Python_logo.svg.png',
+        logo: '../imgs/Python_Logo.png',
         risorse: {
             'Principiante': [
                 { nome: 'Python Official Tutorial', url: 'https://docs.python.org/3/tutorial/' },
@@ -86,7 +86,7 @@ const tecnologie = {
         }
     },
     'MongoDB': {
-        logo: '../imgs/MongoDB_Logo.svg.png',
+        logo: '../imgs/Mongo_DB_Logo.png',
         risorse: {
             'Principiante': [
                 { nome: 'MongoDB University', url: 'https://university.mongodb.com/' },
@@ -103,7 +103,7 @@ const tecnologie = {
         }
     },
     'PostgreSQL': {
-        logo: '../imgs/PostgreSQL_logo.svg.png',
+        logo: '../imgs/postgresql_Logo.jpg',
         risorse: {
             'Principiante': [
                 { nome: 'PostgreSQL Tutorial', url: 'https://www.postgresqltutorial.com/' },
